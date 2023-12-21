@@ -17,3 +17,5 @@
 🔗 *Dive into the madness: [Fuck-Tempo on GitHub](#)*
 
 📝 **Disclaimer:** This app is a comic relief from the mundanity of time tracking. Always adhere to your work ethics, folks! 🌟
+
+<img width="1624" alt="image" src="https://github.com/AlexVialaBellander/fuck-tempo/assets/42417723/73d164ac-00c3-45e2-ac19-b03f0881833c">
