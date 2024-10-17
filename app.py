@@ -119,12 +119,13 @@ def send_to_tempo(data, api_token):
                         st.error(
                             f"Failed to log hours for {ticket_id} on {date}: {response.text}"
                         )
+                        st.error(response.__dict__)
 
 
 def log_hours(issue_key, date, hours, headers, activity):
-    url = "https://api.tempo.io/core/3/worklogs/"
+    url = "https://api.tempo.io/4/worklogs/"
     data = {
-        "issueKey": issue_key,
+        "issueId": issue_key,
         "timeSpentSeconds": hours * 3600,
         "startDate": date.strftime("%Y-%m-%d"),
         "startTime": "09:00:00",
